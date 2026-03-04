@@ -1,4 +1,4 @@
-# Sett Hub - AI Tools for After Effects
+# AI Tools for After Effects
 
 **Sett Hub** is a centralized Adobe After Effects Extension (CEP) that provides a unified interface for a suite of powerful AI-driven creative tools. It serves as a launcher and management dashboard for various AI workflows, streamlining the creative process directly within After Effects.
 
