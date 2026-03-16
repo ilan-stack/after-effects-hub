@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="7.0" ExtensionBundleId="com.sett.hub" ExtensionBundleVersion="1.0.0"
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.aetools.hub" ExtensionBundleVersion="1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   
   <ExtensionList>
-    <Extension Id="com.sett.hub" Version="1.0.0" />
+    <Extension Id="com.aetools.hub" Version="1.0.0" />
     <Extension Id="com.ilanlenzner.aiimageexpander.panel" Version="1.0.0" />
     <Extension Id="com.ilanlenzner.aiupscaler.panel" Version="1.0.0" />
-    <Extension Id="com.sett.bgremover" Version="1.0.0" />
+    <Extension Id="com.aetools.bgremover" Version="1.0.0" />
     <Extension Id="com.ilanlenzner.aiImageVariations" Version="1.0.0" />
     <Extension Id="com.kling.extension.panel" Version="1.0.0" />
     <Extension Id="com.videoexpander.panel" Version="1.0.0" />
@@ -31,7 +31,7 @@
   <DispatchInfoList>
     
     <!-- 1. MAIN HUB -->
-    <Extension Id="com.sett.hub">
+    <Extension Id="com.aetools.hub">
       <DispatchInfo>
         <Resources>
           <MainPath>./index.html</MainPath>
@@ -46,7 +46,7 @@
         </Lifecycle>
         <UI>
           <Type>Panel</Type>
-          <Menu>Sett Iteration Tools</Menu>
+          <Menu>AI Tools</Menu>
           <Geometry>
             <Size>
               <Height>600</Height>
@@ -108,7 +108,7 @@
     </Extension>
 
     <!-- 4. BG Remover -->
-    <Extension Id="com.sett.bgremover">
+    <Extension Id="com.aetools.bgremover">
       <DispatchInfo>
         <Resources>
           <MainPath>./modules/BGRemover/index.html</MainPath>

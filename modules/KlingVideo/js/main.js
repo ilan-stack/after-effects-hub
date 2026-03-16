@@ -2,7 +2,7 @@ const path = require('path');
 const csInterface = new CSInterface();
 const extensionRoot = csInterface.getSystemPath(SystemPath.EXTENSION);
 
-// Resolve correctly relative to the bundled root (sett-hub)
+// Resolve correctly relative to the bundled root
 const servicePath = path.join(extensionRoot, 'modules/KlingVideo/js/services/klingService.js');
 
 // Force reload of the service module by clearing cache

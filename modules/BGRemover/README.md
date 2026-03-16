@@ -153,7 +153,7 @@ To modify the extension:
 
 ## License
 
-© 2025 Sett.ai
+© 2025 Ilan Lenzner
 
 ---
 

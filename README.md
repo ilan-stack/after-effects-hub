@@ -1,10 +1,10 @@
 # AI Tools for After Effects
 
-**Sett Hub** is a centralized Adobe After Effects Extension (CEP) that provides a unified interface for a suite of powerful AI-driven creative tools. It serves as a launcher and management dashboard for various AI workflows, streamlining the creative process directly within After Effects.
+**AI Tools Hub** is a centralized Adobe After Effects Extension (CEP) that provides a unified interface for a suite of powerful AI-driven creative tools. It serves as a launcher and management dashboard for various AI workflows, streamlining the creative process directly within After Effects.
 
 ## 🚀 Features & Modules
 
-Sett Hub integrates the following tools into a single, cohesive panel:
+The hub integrates the following tools into a single, cohesive panel:
 
 *   **AI Image Expander**: Seamlessly expand image boundaries using generative AI.
 *   **AI Image Upscaler**: Enhance image resolution up to 4x with high fidelity.
@@ -20,18 +20,18 @@ Sett Hub integrates the following tools into a single, cohesive panel:
 ## 🛠️ Installation
 
 1.  **Download**: Clone this repository or download the latest release.
-2.  **Deploy**: Move the entire `sett-hub` folder to your CEP extensions directory:
+2.  **Deploy**: Move the entire `after-effects-hub` folder to your CEP extensions directory:
     *   **Mac**: `/Library/Application Support/Adobe/CEP/extensions/`
     *   **Windows**: `C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\`
 3.  **Enable Debug Mode**: If you are installing an unsigned extension, ensure your player debug mode is enabled.
     *   **Mac**: `defaults write com.adobe.CSXS.11 PlayerDebugMode 1` (Adjust version number `11` as needed for your AE version).
     *   **Windows**: Edit the registry key `PlayerDebugMode` to `1`.
-4.  **Restart After Effects**: The extension will appear under `Window > Extensions > Sett Iteration Tools`.
+4.  **Restart After Effects**: The extension will appear under `Window > Extensions > AI Tools`.
 
 ## 🖥️ Usage
 
 1.  Open After Effects.
-2.  Navigate to `Window > Extensions > Sett Iteration Tools`.
+2.  Navigate to `Window > Extensions > AI Tools`.
 3.  The Hub will open, displaying the list of available tools.
 4.  Click on any tool card to launch that specific module.
 
